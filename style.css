@@ -146,19 +146,25 @@ h2{
   color: #FFFFFF;
   margin-bottom: 20px;
 }
+#about{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 #about p{
   line-height: 24px;
   font-size: 16px;
   font-weight: 400;
   color: #FFFFFF;
+  width: 1000px;
 }
 #about hr{
     margin-top: 80px;
+    margin-bottom: 20px;
     border: 0.5px solid #ffffff ;
     opacity: 10%;
-}
-#about{
-  width: ;
+    width: 100%;
 }
 #count-box{
   display: flex;
@@ -171,16 +177,77 @@ h2{
   font-size: 48px;
   font-weight: 900;
   color: #00FF88;
+  margin-bottom: 10px;
 }
 .number-title{
   font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
+  font-weight: 300;
+  line-height: 28px;
   color: #FFFFFF;
 
   
 }
      /* Why Choose TechWave */
+h3{
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+}
+.choose-title{
+    line-height: 36px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+#choose-main{
+  background-color: #230E3D;
+  padding: 120px ;
+}
+.choose-content{
+ background-color: #35116540;
+ border-radius: 20px;
+ padding: 40px 60px;
+ display: flex;
+ flex-direction: column;
+ align-items: flex-start;
+ gap: 20px;
+ text-align: left;
+ 
+}
+#choose{
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(3 ,1fr );
+  grid-template-rows: repeat(3, 1fr);
+  margin: 40px auto;
+}
+#audio{
+  grid-column: span 1;
+  grid-row: span 2;
+  justify-content: center;
+}
+#dvice{
+  grid-column: span 2;
+  grid-row: span 1;
+}
+
+#community{
+  grid-column: span 2;
+  grid-row: span 1;
+}
+#interview{
+  grid-column: span 2;
+  grid-row: span 1;
+}
+#resource{
+  grid-column: span 1;
+  grid-row: span 1;
+}
+
+
+
+
 
 @media screen {
   
