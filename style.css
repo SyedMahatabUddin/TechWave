@@ -7,8 +7,6 @@
        .font-inter{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
 }
 body{
   background-color: #1A0B2E;
@@ -155,7 +153,9 @@ h2{
   color: #FFFFFF;
 }
 #about hr{
-  
+    margin-top: 80px;
+    border: 0.5px solid #ffffff ;
+    opacity: 10%;
 }
 #about{
   width: ;
@@ -163,6 +163,9 @@ h2{
 #count-box{
   display: flex;
   justify-content: space-around;
+  
+  margin-top: 80px;
+  margin-bottom: 120px;
 }
 .number{
   font-size: 48px;
@@ -177,6 +180,7 @@ h2{
 
   
 }
+     /* Why Choose TechWave */
 
 @media screen {
   
