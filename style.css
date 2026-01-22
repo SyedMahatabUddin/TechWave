@@ -383,7 +383,7 @@ footer{
 
 
         /* mobile device */
-@media screen and (min-width: 480px) and (max-width: 576px) {
+@media screen and (min-width: 280px) and (max-width: 576px) {
   .nav-list{
     display: none;
   }
@@ -425,8 +425,8 @@ h1{
     justify-content: center;
 }
 #host-png{
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
 }
 footer{
     background: url(./media/mobile-footer.png);
